@@ -81,7 +81,7 @@ hr{
 .showcase{
     width: 100%;
     height: 550px;
-    background: url('img/students.jpeg') no-repeat center/cover;
+    background: url('/Vistas/img/students.jpeg') no-repeat center/cover;
     padding: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -148,7 +148,7 @@ hr{
 .cards-banner-one {
     width: 100%;
     height: 350px;
-    background: url('img/banner-students.jpg') no-repeat center center/cover;
+    background: url('/Vistas/img/banner-students.jpg') no-repeat center center/cover;
     margin-bottom: 40px;
 }
 
@@ -168,7 +168,7 @@ hr{
 .cards-banner-two{
     width: 100%;
     height: 350px;
-    background: url('/img/library.jpg') no-repeat center center/cover;
+    background: url('/Vistas/img/library.jpg') no-repeat center center/cover;
 }
 .cards-banner-two .content {
     width: 50%;

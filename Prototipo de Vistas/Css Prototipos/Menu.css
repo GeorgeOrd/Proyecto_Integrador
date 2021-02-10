@@ -1,0 +1,17 @@
+.nav-bar-icon{
+    width: 50px;
+}
+
+
+.banner{
+    width: 1200px;
+    height: 350px;
+}
+
+.footer {
+    background: gray;
+    color: white;
+    font-size: 12px;
+    text-align:center;
+    padding-bottom: 20px;
+}
