@@ -1,0 +1,34 @@
+.nav-pills,span{
+   float: right;
+    
+}
+.banner{
+  padding-top: 40px;
+  margin: auto;
+  display: block;
+  width: 550px; 
+}
+
+.container{
+  text-align: center;
+}
+#img-perf{
+  width: 140px;
+  height: 140px;
+  border-radius: 250px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+#img-ft{
+  width: 500px;
+  height: 500px;
+}
+
+.footer {
+  background: gray;
+  color: white;
+  font-size: 12px;
+  text-align:center;
+  padding-bottom: 20px;
+}
+

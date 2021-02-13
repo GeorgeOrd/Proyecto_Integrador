@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="Css Prototipos/Login.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="scripts/login.js">
+
+    <title>Inicio Sesion</title>
+
+</head>
+
+<body>
+  
+    <div class="sidenav">
+        <div class="login-main-text">
+            <h2>Owl Education<br> Inicia Sesión</h2>
+            <p>En esta versión solo puedes iniciar sesion como ADMINISTRADOR</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="col-md-5 col-sm-12">
+            <div class="login-form">
+                <form>
+                    <div class="form-group">
+                        <label>Nombre de Usuario</label>
+                        <input type="text" class="form-control" placeholder="prueba con admin">
+                    </div>
+                    <div class="form-group">
+                        <label>Contraseña</label>
+                        <input type="password" class="form-control" placeholder="prueba con 12345">
+                    </div>
+                    <button type="submit" class="btn btn-black">Ingresar</button>
+                    <button type="submit" class="btn btn-secondary" formaction="Menu.html">Regresar</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" >
+              Escoge un rol
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="PerfilEstudiantes.html">Estudiante</a></li>
+              <li><a class="dropdown-item" href="PerfilProfesor.html">Profesor</a></li>
+            </ul>
+          </div>
+    </div>
+    
+
+   
+</body>
+
+</html>

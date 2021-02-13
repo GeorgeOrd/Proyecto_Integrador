@@ -1,0 +1,14 @@
+.nav-pills,span{
+  float: right;
+   
+}
+
+.footer {
+    background: gray;
+    color: white;
+    font-size: 12px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  
